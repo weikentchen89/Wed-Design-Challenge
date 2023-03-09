@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Add a title here -->
+    <title>Cloudiness</title>
+
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
+
+
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="../assets/css/styles.css" media="screen">
+
+  </head>
+
+  <body>
+    <!-- Start of navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container-fluid">
+        <div class="col-xs-9 phone-nav">
+          <a class="navbar-brand" href="../index.html" id="logo">Latitude</a>
+        </div>
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div>
+          <ul class="nav navbar-nav justify-content-end">
+  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                aria-haspopup="true">
+                Plots<span class="caret"></span>
+              </a>
+  
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="temp.html">Max Temperature</a></li>
+                <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+                <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+                <li><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
+              </ul>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="../comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../data.html">Data</a>
+            </li>
+  
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Start of container -->
+
+          <!-- Start of Visualizations imageNav Area -->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8">
+                <h1>Summary:Latitude vs Cloudiness</h1>
+                  <hr>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <a href="../assets/images/Fig3.png" target="_blank">
+          <img src="../assets/images/Fig3.png" class="img-fluid" alt="Responsive image">
+              </a>
+            </div>
+              <div class="row">
+                <div class="col-md-12">
+                    <p>This plot is showing that there is no correlation between city latitude and cloudiness of the region.</p>
+                </div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <h2>Visualizations</h2>
+                <hr>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <a href="temp.html">
+                  <img src="../assets/images/Fig1.png" class="img-fluid" alt="Responsive image">
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="humidity.html">
+                  <img src="../assets/images/Fig2.png" class="img-fluid" alt="Responsive image">
+               </a>
+              </div>
+              <div class="col-md-3">
+                <a href="cloudiness.html">
+                  <img src="../assets/images/Fig3.png" class="img-fluid" alt="Responsive image">
+                </a>
+              </div>
+              <div class="col-md-3">
+                <a href="wind.html">
+                  <img src="../assets/images/Fig4.png" class="img-fluid" alt="Responsive image">
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- End of the Visualizations imageNav Area -->
+
+    <!-- End of container -->
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+
+</html>
